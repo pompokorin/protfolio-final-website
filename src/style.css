@@ -14,8 +14,8 @@ h1 {
 
 h2 {
   font-family: var(--description-font);
-  font-size: 35px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 h3 {
@@ -52,32 +52,53 @@ h4 {
   font-family: var(--title-font);
   font-size: 40px;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 30px;
 }
 
-.description {
+p {
   font-family: var(--description-font);
-  font-size: 24px;
-  line-height: 1.5;
+  font-size: 22px;
 }
 
-.project-link {
+.btn-branding-outline {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--secondary-color);
+  background: white;
   box-shadow: var(--box-shadow);
-  color: white;
+  border: 2px solid var(--secondary-color);
   display: block;
-  text-align: center;
-  margin: 0 20px;
 }
 
-footer {
-  margin: 40px;
+.description {
+  padding: 80px 40px;
+}
+
+.footer {
+  padding: 40px;
   font-size: 18px;
   font-family: var(--description-font);
   text-align: center;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 18px;
+  }
 }
