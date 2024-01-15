@@ -103,9 +103,27 @@ p {
   margin: 30px;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+.content-container {
+  padding: 120px 60px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.content h1 {
+  font-size: 60px;
+  padding: 30px;
+}
+
+.content h4 {
+  font-family: var(--description-font);
+  font-size: 30px;
+}
+
+.content p {
+  padding-bottom: 40px;
+  font-size: 18px;
 }
 
 @media (max-width: 900px) {
@@ -161,5 +179,18 @@ p {
 
   .about-section .btn-branding {
     margin-bottom: 40px;
+  }
+
+  .content-container {
+    text-align: center;
+    padding: 10px 0 0 0;
+  }
+
+  .content h1 {
+    font-size: 30px;
+  }
+
+  .content h4 {
+    font-size: 24px;
   }
 }
