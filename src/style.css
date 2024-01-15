@@ -124,6 +124,7 @@ p {
 .content p {
   padding-bottom: 40px;
   font-size: 18px;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
