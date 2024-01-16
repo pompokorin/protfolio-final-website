@@ -161,6 +161,47 @@ nav li.active a {
   color: var(--secondary-color);
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+footer p {
+  opacity: 0.6;
+}
+
+footer .email-link {
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  padding: 10px 14px;
+  background: var(--primary-color);
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--hovered-color);
+  overscroll-behavior-block: var(--primary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
@@ -227,5 +268,13 @@ nav li.active a {
 
   .content h4 {
     font-size: 24px;
+  }
+
+  .email-link {
+    font-size: 18px;
+  }
+
+  .social-links {
+    padding-bottom: 30px;
   }
 }
