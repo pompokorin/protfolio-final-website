@@ -127,6 +127,10 @@ p {
   text-align: center;
 }
 
+.logo {
+  max-width: 150px;
+}
+
 nav {
   padding: 20px 0;
 }
